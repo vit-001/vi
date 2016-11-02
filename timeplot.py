@@ -4,9 +4,9 @@ __author__ = 'Nikitin'
 if __name__ == "__main__":
     import sys
     from model.interpreter import Interpreter
-    from view.plotter import Plotter
+    from view.time_plotter import Plotter
 
-    path = 'C://Program Files//Alpari Limited MT5//Tester//Agent-127.0.0.1-3000//MQL5//Files//SA_log//'
+    path = 'C:/Program Files/Alpari Limited MT5/Tester/Agent-127.0.0.1-3000/MQL5/Files/SA_log/'
     fname = 'grafx.dat'
 
     vi = Interpreter()

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Nikitin'
-from model.data import Data
+from model.timeplot_data import Data
 import matplotlib.pyplot as plt
 from matplotlib.finance import candlestick2_ohlc,candlestick_ohlc
 from matplotlib.dates import date2num

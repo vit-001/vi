@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Nikitin'
 
-from model.data import Data
+from model.timeplot_data import Data
 from datetime import datetime
 
 # Формат входного файла:
